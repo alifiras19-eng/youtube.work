@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+
+  .sidebar {
+  display:none;
+  width: 0;
+  }
+
+.video-grid{
+ grid-template-columns:1fr;
+}
+
+body{
+  padding-left:24px;
+}
+
+.search-bar{
+ width:90px;
+ max-width:400;
+}
+
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+ .middle-section{
+    margin-left: 20px;
+    margin-right: 10px;
+    max-width: 220px;
+  }
+
+  .right-section{
+    width: auto;
+    gap: 10px;
+    margin-right: 10px;
+  }
+
+  .youtube-app,
+  .notifications-setup{
+    display: none;
+  }
+
+  .hamburger-menu{
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .youtube-logo{
+    height: 18px;
+  }
+}
+
+.sidebar{
+  top:55px;
+  bottom:0;
+  left:0;
+  width:72px;
+  position:fixed;
+  color:rgb(15, 15, 15);
+  z-index:200;
+  padding-top:5px;
+}
+
+
+.sidebar-link{
+  height:74px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+.sidebar-link:hover{
+  background-color:rgb(214, 214, 214);
+}
+
+.sidebar-link img{
+  height:24px;
+  margin-bottom:4px;
+  filter: invert(1);
+}
+
+.sidebar div{
+  font-family:roboto,arial;
+  font-size:10px;
+  color:rgb(214,214,214)
+}

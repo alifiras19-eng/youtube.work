@@ -1,0 +1,74 @@
+
+    .video-grid{
+     display:grid;
+     grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
+     column-gap:16px;
+     row-gap:40px;
+    }
+
+     p ,
+    .profile-picture{
+     cursor: pointer;
+    }
+    
+
+    .thumbnail{
+    width:100%;
+    cursor: pointer;
+    border-radius: 12px;
+     }
+
+     .video-info-grid{
+      display:grid;
+      grid-template-columns:50px 1fr;
+     }
+
+
+
+      .profile-picture{
+        width:36px;
+        border-radius:50px;
+      }
+
+
+      .video-title{
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight:bold;
+        line-height: 20px;
+        margin-bottom: 10px;
+        color:rgb(15 ,15 ,15);
+      }
+
+      .video-author{
+        font-size:12px;
+        color:grey; 
+        margin-bottom: 4px;
+      }
+
+      .video-stats{
+        color:grey;
+        font-size:12px;
+      }
+
+      .thumbnail-row{
+        margin-bottom: 8px;
+        position:relative;
+      }
+
+     .video-time{
+      font-family:roboto, arial;
+      position:absolute;
+      bottom:8px;
+      right:5px;
+      color:white;
+      border-radius:5px;
+      font-size:12px;
+      font-weight:bold;
+      padding-top:4px;
+      padding-bottom:4px;
+      padding-left:4px;
+      padding-right:4px;
+      background-color:rgb(0, 0, 0, 0.75);
+      cursor: pointer;
+     }
